@@ -1,0 +1,5496 @@
+{
+  "sourceLanguage" : "zh-Hans",
+  "strings" : {
+    "%1$@ · %2$@" : {
+      "comment" : "已忽略规则：告警标题与应用名。%1$@ 为标题，%2$@ 为应用名。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ · %2$@"
+          }
+        }
+      }
+    },
+    "%1$@ 最近 30 秒平均上传 %2$@，是此前基线（%3$@）的 %4$lld× 以上。" : {
+      "comment" : "上传流量突增的告警详情，出现在告警列表和通知正文",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ averaged %2$@ uploaded over the last 30 seconds, more than %4$lld× its previous baseline (%3$@)."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ 最近 30 秒平均上传 %2$@，是此前基线（%3$@）的 %4$lld× 以上。"
+          }
+        }
+      }
+    },
+    "%1$@ 约每 %2$.0f 秒新建一次到 %3$@ 的连接（共 %4$lld 次），节奏非常规律，可能是心跳或信标。" : {
+      "comment" : "周期性外连的告警详情，出现在告警列表和通知正文",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ opens a new connection to %3$@ about every %2$.0f seconds (%4$lld times). The timing is very regular and may be a heartbeat or beacon."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ 约每 %2$.0f 秒新建一次到 %3$@ 的连接（共 %4$lld 次），节奏非常规律，可能是心跳或信标。"
+          }
+        }
+      }
+    },
+    "%1$@ 通过未加密的 %2$@ 连接 %3$@，内容可能被他人读取。" : {
+      "comment" : "明文协议连接的告警详情，出现在告警列表和通知正文",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ connected to %3$@ over unencrypted %2$@. The contents may be readable by others."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ 通过未加密的 %2$@ 连接 %3$@，内容可能被他人读取。"
+          }
+        }
+      }
+    },
+    "%@ · %@ · 已运行 %@" : {
+      "comment" : "面板顶栏副标题：机型、内存大小、已运行时长",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ · %@ · Up %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ · %@ · 已运行 %@"
+          }
+        }
+      }
+    },
+    "%@ 在 1 分钟内连接了本机 %lld 个不同端口。" : {
+      "comment" : "疑似端口扫描的告警详情，出现在告警列表和通知正文",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ connected to %lld different ports on this Mac within 1 minute."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 在 1 分钟内连接了本机 %lld 个不同端口。"
+          }
+        }
+      }
+    },
+    "%@ 在所有网络接口上监听 TCP %lld 端口，同一网络中的设备可以连接。" : {
+      "comment" : "对外开放端口的告警详情，出现在告警列表和通知正文",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ is listening on TCP port %lld on all network interfaces. Devices on the same network can connect."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 在所有网络接口上监听 TCP %lld 端口，同一网络中的设备可以连接。"
+          }
+        }
+      }
+    },
+    "%@ 连接到 %@。端口 %lld 常见于远程控制或恶意软件。" : {
+      "comment" : "可疑端口连接的告警详情，出现在告警列表和通知正文",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ connected to %@. Port %lld is commonly used for remote control or malware."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 连接到 %@。端口 %lld 常见于远程控制或恶意软件。"
+          }
+        }
+      }
+    },
+    "%@ 首次连接公网：%@" : {
+      "comment" : "新联网应用的告警详情，出现在告警列表和通知正文",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ connected to the internet for the first time: %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ 首次连接公网：%@"
+          }
+        }
+      }
+    },
+    "%@（%@，%@）出现在局域网中。" : {
+      "comment" : "局域网新设备的告警详情，出现在告警列表和通知正文",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ (%@, %@) appeared on the local network."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@（%@，%@）出现在局域网中。"
+          }
+        }
+      }
+    },
+    "%@（全部）" : {
+      "comment" : "已忽略规则未指定应用。%@ 为告警标题，后缀表示作用于全部应用。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ (all)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@（全部）"
+          }
+        }
+      }
+    },
+    "%@：%@" : {
+      "comment" : "菜单栏状态项悬停：指标名与数值",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@：%@"
+          }
+        }
+      }
+    },
+    "%@：CPU %@ · 内存 %@ · %lld 个进程，点击可退出" : {
+      "comment" : "悬停概览进程行时的帮助",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@: CPU %@ · Memory %@ · %lld processes, click to quit"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@：CPU %@ · 内存 %@ · %lld 个进程，点击可退出"
+          }
+        }
+      }
+    },
+    "%lld 个" : {
+      "comment" : "风扇卡片标题右侧的风扇数量，名词已在标题里",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 个"
+          }
+        }
+      }
+    },
+    "%lld 个应用正在连接公网" : {
+      "comment" : "隐私评分扣分原因：正在连接公网的应用个数",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld apps are connecting to the internet"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 个应用正在连接公网"
+          }
+        }
+      }
+    },
+    "%lld 个端口对局域网开放" : {
+      "comment" : "隐私评分扣分原因：对局域网开放的端口个数",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ports open to the local network"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 个端口对局域网开放"
+          }
+        }
+      }
+    },
+    "%lld 个进程" : {
+      "comment" : "多进程应用名称下方的副标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld processes"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 个进程"
+          }
+        }
+      }
+    },
+    "%lld 个逻辑核心" : {
+      "comment" : "无法区分性能核与能效核时的核心图例",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld logical cores"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 个逻辑核心"
+          }
+        }
+      }
+    },
+    "%lld 条" : {
+      "comment" : "国家或服务商行末的连接条数，列很窄。%lld 是条数。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 条"
+          }
+        }
+      }
+    },
+    "%lld 条 · 所有进程（含系统进程）的 TCP / UDP 连接" : {
+      "comment" : "连接页副标题。%lld 为当前条数。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld connections · TCP / UDP for all processes (including system processes)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 条 · 所有进程（含系统进程）的 TCP / UDP 连接"
+          }
+        }
+      }
+    },
+    "%lld 条未加密的公网连接" : {
+      "comment" : "隐私评分扣分原因：当前未加密的公网连接条数",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld unencrypted internet connections"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 条未加密的公网连接"
+          }
+        }
+      }
+    },
+    "%lld 毫秒" : {
+      "comment" : "刷新频率不足 1 秒时的选项，例如 500 毫秒",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld ms"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 毫秒"
+          }
+        }
+      }
+    },
+    "%lld 秒" : {
+      "comment" : "刷新频率大于 1 秒时的选项，例如 2 秒",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld seconds"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 秒"
+          }
+        }
+      }
+    },
+    "%lld分钟" : {
+      "comment" : "持续时长，不足一小时。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld minutes"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld分钟"
+          }
+        }
+      }
+    },
+    "%lld天 %lld小时" : {
+      "comment" : "持续时长，至少有一天。天数在前、小时在后。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld days %lld hours"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld天 %lld小时"
+          }
+        }
+      }
+    },
+    "%lld小时 %lld分" : {
+      "comment" : "持续时长，不足一天但至少有一小时。小时在前、分钟在后。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld hours %lld min"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld小时 %lld分"
+          }
+        }
+      }
+    },
+    "1 小时" : {
+      "comment" : "总览页时间范围芯片。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 hour"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 小时"
+          }
+        }
+      }
+    },
+    "1 秒" : {
+      "comment" : "刷新频率恰好为 1 秒时的选项",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 second"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1 秒"
+          }
+        }
+      }
+    },
+    "24 小时" : {
+      "comment" : "流量范围：最近 24 小时 | 总览页与应用页的时间范围芯片。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24 hours"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24 小时"
+          }
+        }
+      }
+    },
+    "24 小时上传" : {
+      "comment" : "应用详情 KPI：最近 24 小时上传量。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uploaded in 24 hours"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24 小时上传"
+          }
+        }
+      }
+    },
+    "24 小时下载" : {
+      "comment" : "应用详情 KPI：最近 24 小时下载量。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Downloaded in 24 hours"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24 小时下载"
+          }
+        }
+      }
+    },
+    "24 小时合计" : {
+      "comment" : "统计卡片中 24 小时流量合计",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24-hour total"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24 小时合计"
+          }
+        }
+      }
+    },
+    "24 小时流量" : {
+      "comment" : "总览 KPI：最近 24 小时的总流量。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traffic in 24 hours"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "24 小时流量"
+          }
+        }
+      }
+    },
+    "CPU 使用率" : {
+      "comment" : "菜单栏可显示项目：CPU",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CPU Usage"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CPU 使用率"
+          }
+        }
+      }
+    },
+    "CPU 温度" : {
+      "comment" : "菜单栏可显示项目：温度 | CPU 卡片温度行标签",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CPU Temperature"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CPU 温度"
+          }
+        }
+      }
+    },
+    "IP 地址" : {
+      "comment" : "局域网设备表列。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IP Address"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IP 地址"
+          }
+        }
+      }
+    },
+    "IP 归属地离线查询，数据来自 DB-IP Lite（CC BY 4.0，db-ip.com）%@；为国家级与 ASN 级精度。" : {
+      "comment" : "总览页底部脚注。DB-IP、CC BY 4.0、db-ip.com、ASN 不翻译。%@ 是可空的版本月份短语。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IP locations are looked up offline with DB-IP Lite (CC BY 4.0, db-ip.com)%@; country and ASN accuracy only."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "IP 归属地离线查询，数据来自 DB-IP Lite（CC BY 4.0，db-ip.com）%@；为国家级与 ASN 级精度。"
+          }
+        }
+      }
+    },
+    "MAC 地址" : {
+      "comment" : "局域网设备表列。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MAC Address"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "MAC 地址"
+          }
+        }
+      }
+    },
+    "Zest 不会在后台读取任何网络数据。开启后可看到各应用占用的带宽、本次与 24 小时的流量。" : {
+      "comment" : "网络监控关闭时的说明正文",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zest doesn't read any network data in the background. Turn it on to see each app's bandwidth and traffic for this session and the past 24 hours."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zest 不会在后台读取任何网络数据。开启后可看到各应用占用的带宽、本次与 24 小时的流量。"
+          }
+        }
+      }
+    },
+    "Zest 系统监控" : {
+      "comment" : "菜单栏图标的辅助功能标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zest System Monitor"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zest 系统监控"
+          }
+        }
+      }
+    },
+    "Zest 自身" : {
+      "comment" : "受保护的 Zest 进程禁用菜单项",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zest itself"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zest 自身"
+          }
+        }
+      }
+    },
+    "Zest 设置" : {
+      "comment" : "设置窗口标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zest Settings"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zest 设置"
+          }
+        }
+      }
+    },
+    "alert.severity.info" : {
+      "comment" : "告警严重级别标签，显示在告警列表",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提示"
+          }
+        }
+      }
+    },
+    "alert.severity.notice" : {
+      "comment" : "告警严重级别标签，显示在告警列表",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notice"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "注意"
+          }
+        }
+      }
+    },
+    "alert.severity.warning" : {
+      "comment" : "告警严重级别标签，显示在告警列表",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warning"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "警告"
+          }
+        }
+      }
+    },
+    "connections.column.app" : {
+      "comment" : "连接表列：这条连接所属的应用。不是页签 tab.apps，也不是进程种类 process.kind.app。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用"
+          }
+        }
+      }
+    },
+    "cpu.system" : {
+      "comment" : "CPU 卡片内核态占用。与进程分类「系统」不是同一个意思",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系统"
+          }
+        }
+      }
+    },
+    "filter.all" : {
+      "comment" : "进程筛选：全部 | 筛选芯片：不限范围或不限严重级别。与其他「全部」筛选同义。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部"
+          }
+        }
+      }
+    },
+    "kind.system" : {
+      "comment" : "应用列表工具栏：是否显示系统应用。与进程种类「系统」同一意思，共用此键。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系统"
+          }
+        }
+      }
+    },
+    "macOS 会对未获得“本地网络”权限的应用隐藏局域网设备。请允许 Zest 访问本地网络；若之前拒绝过，可在系统设置中重新开启。" : {
+      "comment" : "局域网权限说明。保留品牌 Zest，以及 macOS 权限名 Local Network、System Settings。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS hides LAN devices from apps that do not have Local Network permission. Allow Zest to access the local network; if you previously denied access, turn it back on in System Settings."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS 会对未获得“本地网络”权限的应用隐藏局域网设备。请允许 Zest 访问本地网络；若之前拒绝过，可在系统设置中重新开启。"
+          }
+        }
+      }
+    },
+    "memory.pressure.warning" : {
+      "comment" : "内存压力为警告。不要和告警级别的「警告」混用。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warning"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "警告"
+          }
+        }
+      }
+    },
+    "nettop 退出码 %lld" : {
+      "comment" : "nettop 非正常退出时界面展示的失败原因",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nettop exited with code %lld"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "nettop 退出码 %lld"
+          }
+        }
+      }
+    },
+    "network.download" : {
+      "comment" : "网络下载流量行，不是下载动作 | 统计卡片的下载流量行，不是下载动作",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下载"
+          }
+        }
+      }
+    },
+    "network.upload" : {
+      "comment" : "网络上传流量行，不是上传动作 | 统计卡片的上传流量行，不是上传动作",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upload"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上传"
+          }
+        }
+      }
+    },
+    "process.kind.app" : {
+      "comment" : "进程筛选：应用。与进程种类同一含义，不是页签 | 进程种类：应用。不是页签 tab.apps。进程筛选里的「应用」同一含义。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用"
+          }
+        }
+      }
+    },
+    "process.kind.system" : {
+      "comment" : "进程筛选：系统进程。不是 CPU 时间里的系统 | 进程种类：系统进程。不是 CPU 时间里的「系统」。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系统"
+          }
+        }
+      }
+    },
+    "range.session" : {
+      "comment" : "流量范围：本次启动，不是「24 小时」 | 应用列表的时间范围芯片，指本次监控会话，与「24 小时」相对。宜短。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Session"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本次"
+          }
+        }
+      }
+    },
+    "tab.apps" : {
+      "comment" : "网络窗口侧边栏页签。与进程种类「应用」不同义",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apps"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用"
+          }
+        }
+      }
+    },
+    "tab.connections" : {
+      "comment" : "连接页标题。与侧边栏页签同义。 | 网络窗口侧边栏页签，与连接页标题同义",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connections"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接"
+          }
+        }
+      }
+    },
+    "traffic.download" : {
+      "comment" : "下行流量。连接表字节数列，与其他下载指标同义。 | 网络流量方向「下载」。KPI、图例、实时图系列名和目的地表头同一意思，共用此键。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下载"
+          }
+        }
+      }
+    },
+    "traffic.upload" : {
+      "comment" : "上行流量。连接表字节数列，与其他上传指标同义。 | 网络流量方向「上传」。KPI、图例、实时图系列名和目的地表头同一意思，共用此键。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upload"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上传"
+          }
+        }
+      }
+    },
+    "“已持续”从 Zest 首次观察到该连接时开始计算；字节数为连接建立以来的累计值。" : {
+      "comment" : "连接表底部说明。引号中的词与「已持续」列名对应。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“Duration” starts when Zest first sees the connection. Byte counts are totals since the connection was established."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“已持续”从 Zest 首次观察到该连接时开始计算；字节数为连接建立以来的累计值。"
+          }
+        }
+      }
+    },
+    "−%lld 分" : {
+      "comment" : "60 分钟图横轴刻度，表示若干分钟前。减号是 U+2212。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "−%lld min"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "−%lld 分"
+          }
+        }
+      }
+    },
+    "−%lld 小时" : {
+      "comment" : "24 小时图横轴刻度，表示若干小时前。减号是 U+2212，不要换成连字符。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "−%lld h"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "−%lld 小时"
+          }
+        }
+      }
+    },
+    "上传 %@%@，下载 %@%@" : {
+      "comment" : "菜单栏网速状态项的悬停提示；画出来的仍是箭头和数字",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upload %@%@, download %@%@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上传 %@%@，下载 %@%@"
+          }
+        }
+      }
+    },
+    "上传流量突增" : {
+      "comment" : "告警标题，出现在告警列表和系统通知标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upload traffic spike"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上传流量突增"
+          }
+        }
+      }
+    },
+    "上传速率" : {
+      "comment" : "应用详情 KPI：当前上传速率。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upload rate"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "上传速率"
+          }
+        }
+      }
+    },
+    "下载速率" : {
+      "comment" : "应用详情 KPI：当前下载速率。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download rate"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "下载速率"
+          }
+        }
+      }
+    },
+    "不可用" : {
+      "comment" : "内存压力等级不可用时的占位文字",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unavailable"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不可用"
+          }
+        }
+      }
+    },
+    "不可用（无法读取 SMC）" : {
+      "comment" : "无法读取 SMC 风扇数据时的占位文案",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unavailable (unable to read SMC)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不可用（无法读取 SMC）"
+          }
+        }
+      }
+    },
+    "不可用（未找到可读传感器）" : {
+      "comment" : "CPU 温度传感器不可用时的占位文案",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unavailable (no readable sensor)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不可用（未找到可读传感器）"
+          }
+        }
+      }
+    },
+    "严重" : {
+      "comment" : "内存压力为严重。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Critical"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "严重"
+          }
+        }
+      }
+    },
+    "主要网络服务商（ASN）" : {
+      "comment" : "网络服务商分布卡片标题。ASN 保持缩写。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top network providers (ASN)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主要网络服务商（ASN）"
+          }
+        }
+      }
+    },
+    "交换" : {
+      "comment" : "内存卡片交换空间行",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swap"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "交换"
+          }
+        }
+      }
+    },
+    "仅对“警告”级别（可疑端口、上传突增、周期性外连、端口扫描）发送通知。" : {
+      "comment" : "网络页系统通知开关下方的说明",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notifications are sent only for the Warning level (suspicious ports, upload spikes, periodic outbound connections, and port scans)."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仅对“警告”级别（可疑端口、上传突增、周期性外连、端口扫描）发送通知。"
+          }
+        }
+      }
+    },
+    "仅本机" : {
+      "comment" : "监听地址只绑定在本机。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Local only"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仅本机"
+          }
+        }
+      }
+    },
+    "仅警告" : {
+      "comment" : "告警筛选：只显示警告。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warnings only"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "仅警告"
+          }
+        }
+      }
+    },
+    "保留" : {
+      "comment" : "连接范围筛选：保留地址。 | 连接地址范围：保留地址。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reserved"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保留"
+          }
+        }
+      }
+    },
+    "保留 24 小时 · 占用 %@" : {
+      "comment" : "网络历史标题旁的保留时间与占用空间，%@ 为已用大小",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keeps 24 hours · uses %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保留 24 小时 · 占用 %@"
+          }
+        }
+      }
+    },
+    "偏高" : {
+      "comment" : "散热状态偏高，高于「略高」。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elevated"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "偏高"
+          }
+        }
+      }
+    },
+    "停转" : {
+      "comment" : "风扇转速低于 1 时显示的文字",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stopped"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "停转"
+          }
+        }
+      }
+    },
+    "全部关闭时菜单栏只显示 Zest 图标。温度与风扇读取不到时显示 N/A。" : {
+      "comment" : "菜单栏页显示项目列表的页脚说明",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When all items are off, the menu bar shows only the Zest icon. Temperature and fan speed show N/A when unavailable."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部关闭时菜单栏只显示 Zest 图标。温度与风扇读取不到时显示 N/A。"
+          }
+        }
+      }
+    },
+    "全部进程" : {
+      "comment" : "概览进程卡片右上角进入进程页的按钮",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All processes"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部进程"
+          }
+        }
+      }
+    },
+    "公网" : {
+      "comment" : "连接范围筛选。与地址范围「公网」同义。 | 连接地址范围。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Public"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "公网"
+          }
+        }
+      }
+    },
+    "关于" : {
+      "comment" : "设置窗口的「关于」标签",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关于"
+          }
+        }
+      }
+    },
+    "关闭中" : {
+      "comment" : "连接表状态列：FinWait、Closing、LastAck。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Closing"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关闭中"
+          }
+        }
+      }
+    },
+    "内存" : {
+      "comment" : "内存卡片标题 | 概览进程卡片的内存列标题，与内存卡片同一含义 | 进程按内存排序时的列名。与内存卡片标题同一含义。CPU 不翻译。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memory"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "内存"
+          }
+        }
+      }
+    },
+    "内存占用" : {
+      "comment" : "菜单栏可显示项目：内存",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memory Usage"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "内存占用"
+          }
+        }
+      }
+    },
+    "内存压力" : {
+      "comment" : "内存压力行的标签",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Memory pressure"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "内存压力"
+          }
+        }
+      }
+    },
+    "写入" : {
+      "comment" : "磁盘写入速率行",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写入"
+          }
+        }
+      }
+    },
+    "出现警告时发送系统通知" : {
+      "comment" : "网络页系统通知开关",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send a system notification when a warning appears"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出现警告时发送系统通知"
+          }
+        }
+      }
+    },
+    "出错" : {
+      "comment" : "侧边栏底部运行状态",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Error"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "出错"
+          }
+        }
+      }
+    },
+    "分钟" : {
+      "comment" : "60 分钟柱状图的 X 轴维度名。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Minute"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分钟"
+          }
+        }
+      }
+    },
+    "刷新" : {
+      "comment" : "局域网页重新读取 ARP 表的按钮。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refresh"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刷新"
+          }
+        }
+      }
+    },
+    "刷新频率" : {
+      "comment" : "通用页刷新频率选择器的标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Refresh Interval"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刷新频率"
+          }
+        }
+      }
+    },
+    "华氏度 (°F)" : {
+      "comment" : "温度单位选项。保留 °F。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fahrenheit (°F)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "华氏度 (°F)"
+          }
+        }
+      }
+    },
+    "协议" : {
+      "comment" : "连接表列：TCP 或 UDP。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protocol"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "协议"
+          }
+        }
+      }
+    },
+    "占用最高" : {
+      "comment" : "概览页进程卡片的标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Highest usage"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "占用最高"
+          }
+        }
+      }
+    },
+    "厂商" : {
+      "comment" : "局域网设备表列：网卡厂商。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vendor"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "厂商"
+          }
+        }
+      }
+    },
+    "厂商根据 MAC 前缀查询 IEEE 公开注册表（离线）。手机等设备常使用随机 MAC，无法识别厂商。" : {
+      "comment" : "局域网设备表底部说明。IEEE、MAC 保持缩写。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vendors are resolved offline from the IEEE public registry using the MAC prefix. Phones and similar devices often use a randomized MAC address, so the vendor cannot be identified."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "厂商根据 MAC 前缀查询 IEEE 公开注册表（离线）。手机等设备常使用随机 MAC，无法识别厂商。"
+          }
+        }
+      }
+    },
+    "历史数据从首次运行开始累积，每分钟保存一次" : {
+      "comment" : "24 小时图还没有数据时盖在图上的说明。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "History accumulates from the first launch and is saved once a minute."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "历史数据从首次运行开始累积，每分钟保存一次"
+          }
+        }
+      }
+    },
+    "取消" : {
+      "comment" : "强制退出确认条上的取消按钮",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
+        }
+      }
+    },
+    "受保护" : {
+      "comment" : "锁图标的无障碍说明",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Protected"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "受保护"
+          }
+        }
+      }
+    },
+    "另有 %lld 条连接指向 198.18.0.0/15 等保留地址（通常是代理软件的 Fake IP），真实目的地无法从本机得知。" : {
+      "comment" : "脚注的第二句，直接接在上一句后面。英文句首留空格。%lld 是连接数。Fake IP 与地址保持原样。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " %lld more connections point to reserved addresses such as 198.18.0.0/15 (often a proxy Fake IP); the real destination cannot be determined from this Mac."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "另有 %lld 条连接指向 198.18.0.0/15 等保留地址（通常是代理软件的 Fake IP），真实目的地无法从本机得知。"
+          }
+        }
+      }
+    },
+    "可在设置中开启主机名解析" : {
+      "comment" : "未开启主机名解析时，目的地卡片右上角的提示。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turn on hostname resolution in Settings"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可在设置中开启主机名解析"
+          }
+        }
+      }
+    },
+    "可用" : {
+      "comment" : "可用内存行，以及磁盘可用容量的单位",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Available"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可用"
+          }
+        }
+      }
+    },
+    "可疑端口连接" : {
+      "comment" : "告警标题，出现在告警列表和系统通知标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suspicious port connection"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "可疑端口连接"
+          }
+        }
+      }
+    },
+    "同一应用反复新建到同一公网地址的连接（≥ 6 次），间隔在 10 秒～10 分钟之间且非常规律。" : {
+      "comment" : "规则说明：周期性外连。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The same app keeps opening connections to the same public address (6 or more times) at a very regular interval between 10 seconds and 10 minutes."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同一应用反复新建到同一公网地址的连接（≥ 6 次），间隔在 10 秒～10 分钟之间且非常规律。"
+          }
+        }
+      }
+    },
+    "同一远端在 1 分钟内连接本机 6 个以上不同的监听端口。" : {
+      "comment" : "规则说明：疑似端口扫描。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The same remote host connects to more than 6 different listening ports on this Mac within 1 minute."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "同一远端在 1 分钟内连接本机 6 个以上不同的监听端口。"
+          }
+        }
+      }
+    },
+    "名称" : {
+      "comment" : "进程表名称列表头",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Name"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "名称"
+          }
+        }
+      }
+    },
+    "后台网络监控" : {
+      "comment" : "网络页后台网络监控开关",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Background Network Monitoring"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "后台网络监控"
+          }
+        }
+      }
+    },
+    "启动后的第 1 分钟用于学习基线，期间不会对“新联网应用”“局域网新设备”告警。" : {
+      "comment" : "告警空状态说明。引号中的名称与告警标题「新的联网应用」「局域网新设备」对应。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The first minute after launch is used to learn a baseline. “New app online” and “New device on the local network” alerts are not raised during that time."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "启动后的第 1 分钟用于学习基线，期间不会对“新联网应用”“局域网新设备”告警。"
+          }
+        }
+      }
+    },
+    "告警" : {
+      "comment" : "告警页标题。与侧边栏页签同义。 | 网络窗口侧边栏页签，与告警页标题同义",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alerts"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "告警"
+          }
+        }
+      }
+    },
+    "周期性外连" : {
+      "comment" : "告警标题，出现在告警列表和系统通知标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Periodic outbound connection"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "周期性外连"
+          }
+        }
+      }
+    },
+    "命令行" : {
+      "comment" : "进程筛选，以及没有应用图标时终端符号的无障碍说明 | 进程种类：命令行程序。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Command line"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "命令行"
+          }
+        }
+      }
+    },
+    "在访达中显示" : {
+      "comment" : "应用操作菜单中的在访达显示项 | 应用详情里在访达中定位应用的按钮。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show in Finder"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在访达中显示"
+          }
+        }
+      }
+    },
+    "基于连接元数据的规则检测，不检查通信内容" : {
+      "comment" : "告警页副标题。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rule-based detection using connection metadata. Contents are not inspected."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "基于连接元数据的规则检测，不检查通信内容"
+          }
+        }
+      }
+    },
+    "学习期结束后，ARP 表中出现了新的设备。" : {
+      "comment" : "规则说明：局域网新设备。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "After the learning period, a new device shows up in the ARP table."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "学习期结束后，ARP 表中出现了新的设备。"
+          }
+        }
+      }
+    },
+    "学习期结束后，某个应用第一次连接公网。" : {
+      "comment" : "规则说明：新的联网应用。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "After the learning period, an app connects to the internet for the first time."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "学习期结束后，某个应用第一次连接公网。"
+          }
+        }
+      }
+    },
+    "定时运行系统自带的 nettop（后台每 8 秒，界面打开时每 2 秒，单次约 17ms），记录各应用流量与 60 分钟历史，并在后台检测异常。关闭后网络页与告警停止更新。" : {
+      "comment" : "网络页后台网络监控开关下方的说明",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Periodically runs the built-in nettop (every 8 seconds in the background, every 2 seconds while the interface is open, about 17 ms each time), records each app's traffic and 60 minutes of history, and detects anomalies in the background. When this is off, the Network page and alerts stop updating."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "定时运行系统自带的 nettop（后台每 8 秒，界面打开时每 2 秒，单次约 17ms），记录各应用流量与 60 分钟历史，并在后台检测异常。关闭后网络页与告警停止更新。"
+          }
+        }
+      }
+    },
+    "实时流量" : {
+      "comment" : "网络页实时流量卡片标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Live traffic"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "实时流量"
+          }
+        }
+      }
+    },
+    "实时（最近 5 分钟）" : {
+      "comment" : "实时流量卡片标题。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Live (last 5 minutes)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "实时（最近 5 分钟）"
+          }
+        }
+      }
+    },
+    "容量不可用" : {
+      "comment" : "读不到磁盘容量时的占位文案",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Capacity unavailable"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "容量不可用"
+          }
+        }
+      }
+    },
+    "对外开放的端口" : {
+      "comment" : "告警标题，出现在告警列表和系统通知标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exposed port"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "对外开放的端口"
+          }
+        }
+      }
+    },
+    "局域网" : {
+      "comment" : "连接范围筛选，以及局域网页标题。与地址范围同义。 | 网络窗口侧边栏页签，与局域网范围同义 | 连接地址范围。与局域网页标题同一含义。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LAN"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "局域网"
+          }
+        }
+      }
+    },
+    "局域网新设备" : {
+      "comment" : "告警标题，出现在告警列表和系统通知标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New device on the local network"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "局域网新设备"
+          }
+        }
+      }
+    },
+    "局域网设备" : {
+      "comment" : "统计卡片中的局域网设备数",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "LAN devices"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "局域网设备"
+          }
+        }
+      }
+    },
+    "已保存 %@" : {
+      "comment" : "24 小时图卡片右上角。%@ 是已经格式化好的流量大小，例如 12 MB。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saved %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已保存 %@"
+          }
+        }
+      }
+    },
+    "已停止" : {
+      "comment" : "侧边栏底部运行状态",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stopped"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已停止"
+          }
+        }
+      }
+    },
+    "已关闭" : {
+      "comment" : "连接表状态列：TimeWait 与 Closed 都显示为已关闭。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Closed"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已关闭"
+          }
+        }
+      }
+    },
+    "已压缩" : {
+      "comment" : "内存卡片已压缩内存行",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compressed"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已压缩"
+          }
+        }
+      }
+    },
+    "已建立" : {
+      "comment" : "连接表状态列：TCP Established。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Established"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已建立"
+          }
+        }
+      }
+    },
+    "已忽略" : {
+      "comment" : "当前已忽略的规则列表标题。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ignored"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已忽略"
+          }
+        }
+      }
+    },
+    "已持续" : {
+      "comment" : "连接表列：从首次观察到该连接起的时长。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Duration"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已持续"
+          }
+        }
+      }
+    },
+    "已用" : {
+      "comment" : "磁盘已用空间行",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Used"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已用"
+          }
+        }
+      }
+    },
+    "已退出" : {
+      "comment" : "应用已不在运行时，详情标题下的副标题。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not running"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已退出"
+          }
+        }
+      }
+    },
+    "应用流量" : {
+      "comment" : "网络页应用流量卡片标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App traffic"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "应用流量"
+          }
+        }
+      }
+    },
+    "开启后会对远端 IP 发送反向 DNS（PTR）查询，以显示主机名。默认关闭：Zest 本身不发起任何网络请求。" : {
+      "comment" : "网络页解析远端主机名开关下方的说明",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "When enabled, Zest sends reverse DNS (PTR) queries for remote IPs to show hostnames. Off by default: Zest itself makes no network requests."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开启后会对远端 IP 发送反向 DNS（PTR）查询，以显示主机名。默认关闭：Zest 本身不发起任何网络请求。"
+          }
+        }
+      }
+    },
+    "开启后台网络监控" : {
+      "comment" : "网络页里开启监控的开关标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Turn on background network monitoring"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开启后台网络监控"
+          }
+        }
+      }
+    },
+    "开始监控后将在这里列出流量最多的应用" : {
+      "comment" : "流量排行没有数据时的空状态。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The apps using the most traffic will show up here after monitoring starts."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "开始监控后将在这里列出流量最多的应用"
+          }
+        }
+      }
+    },
+    "强制结束…" : {
+      "comment" : "子进程操作菜单中的强制结束项",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Force Quit…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "强制结束…"
+          }
+        }
+      }
+    },
+    "强制结束进程 %@（PID %lld）？" : {
+      "comment" : "强制结束进程前，面板底部确认标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Force quit process %@ (PID %lld)?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "强制结束进程 %@（PID %lld）？"
+          }
+        }
+      }
+    },
+    "强制退出" : {
+      "comment" : "强制退出确认条上的确认按钮",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Force Quit"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "强制退出"
+          }
+        }
+      }
+    },
+    "强制退出“%@”…" : {
+      "comment" : "应用操作菜单中的强制退出项",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Force Quit “%@”…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "强制退出“%@”…"
+          }
+        }
+      }
+    },
+    "强制退出“%@”？" : {
+      "comment" : "强制退出应用前，面板底部确认标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Force quit “%@”?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "强制退出“%@”？"
+          }
+        }
+      }
+    },
+    "归属地" : {
+      "comment" : "连接表列：公网地址的地理位置。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Location"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "归属地"
+          }
+        }
+      }
+    },
+    "当前没有外部连接" : {
+      "comment" : "目的地表没有外部连接时的占位。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No external connections"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当前没有外部连接"
+          }
+        }
+      }
+    },
+    "当前网络接口的计数器之和。接口被重建（如切换 Wi-Fi、VPN）时系统会从 0 重新计数。" : {
+      "comment" : "「网卡累计」的帮助提示",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sum of the counters for the current network interfaces. When an interface is recreated (for example, after switching Wi-Fi or a VPN), the system starts counting from zero again."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当前网络接口的计数器之和。接口被重建（如切换 Wi-Fi、VPN）时系统会从 0 重新计数。"
+          }
+        }
+      }
+    },
+    "忽略“%1$@”的此类告警" : {
+      "comment" : "忽略某个应用的这类告警。%1$@ 为应用名。英文语序不同，因此使用序号占位符。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ignore this kind of alert for “%1$@”"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "忽略“%1$@”的此类告警"
+          }
+        }
+      }
+    },
+    "忽略所有“%@”" : {
+      "comment" : "忽略所有应用的这类告警。%@ 为告警标题。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ignore all “%@”"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "忽略所有“%@”"
+          }
+        }
+      }
+    },
+    "忽略此类告警" : {
+      "comment" : "没有应用名时，忽略这类告警的菜单项。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ignore this kind of alert"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "忽略此类告警"
+          }
+        }
+      }
+    },
+    "性能核 ×%lld" : {
+      "comment" : "CPU 核心图例中的性能核数量",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Performance ×%lld"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "性能核 ×%lld"
+          }
+        }
+      }
+    },
+    "总览" : {
+      "comment" : "总览页页头标题。 | 网络窗口侧边栏页签，与总览页标题同义",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overview"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "总览"
+          }
+        }
+      }
+    },
+    "恢复" : {
+      "comment" : "取消一条忽略规则的按钮。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restore"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复"
+          }
+        }
+      }
+    },
+    "恢复默认" : {
+      "comment" : "菜单栏页恢复默认显示项的按钮",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restore Defaults"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "恢复默认"
+          }
+        }
+      }
+    },
+    "所有接口" : {
+      "comment" : "监听地址为所有网络接口，而不是仅本机。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All interfaces"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所有接口"
+          }
+        }
+      }
+    },
+    "所有进程的实时流量、连接与告警（数据来自系统 nettop，不抓包、不联网）" : {
+      "comment" : "总览页页头副标题。nettop 是系统工具名，不翻译。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Live traffic, connections, and alerts for every process (from the system nettop tool; no packet capture and no network access)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所有进程的实时流量、连接与告警（数据来自系统 nettop，不抓包、不联网）"
+          }
+        }
+      }
+    },
+    "打开系统设置" : {
+      "comment" : "打开系统设置里本地网络权限的按钮。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open System Settings"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "打开系统设置"
+          }
+        }
+      }
+    },
+    "拓扑" : {
+      "comment" : "侧边栏页签和拓扑页页眉标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Topology"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拓扑"
+          }
+        }
+      }
+    },
+    "按CPU排序" : {
+      "comment" : "悬停进程表 CPU 列表头时的帮助",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sort by CPU"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "按CPU排序"
+          }
+        }
+      }
+    },
+    "按内存排序" : {
+      "comment" : "悬停进程表内存列表头时的帮助",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sort by memory"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "按内存排序"
+          }
+        }
+      }
+    },
+    "按当前公网连接统计" : {
+      "comment" : "国家/地区卡片右上角说明。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "From current public connections"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "按当前公网连接统计"
+          }
+        }
+      }
+    },
+    "接口" : {
+      "comment" : "局域网设备表列：网络接口。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interface"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接口"
+          }
+        }
+      }
+    },
+    "握手中" : {
+      "comment" : "连接表状态列：TCP SynReceived。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handshaking"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "握手中"
+          }
+        }
+      }
+    },
+    "搜索应用" : {
+      "comment" : "应用列表搜索框的占位符。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search apps"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜索应用"
+          }
+        }
+      }
+    },
+    "搜索应用、地址、国家、服务商" : {
+      "comment" : "连接页搜索框占位符。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search apps, addresses, countries, or providers"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜索应用、地址、国家、服务商"
+          }
+        }
+      }
+    },
+    "摄氏度 (°C)" : {
+      "comment" : "温度单位选项。保留 °C。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Celsius (°C)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "摄氏度 (°C)"
+          }
+        }
+      }
+    },
+    "新的联网应用" : {
+      "comment" : "告警标题，出现在告警列表和系统通知标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "New app online"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新的联网应用"
+          }
+        }
+      }
+    },
+    "方向" : {
+      "comment" : "实时图的系列维度名，取值是下载或上传。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Direction"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "方向"
+          }
+        }
+      }
+    },
+    "无法修改登录项：%@" : {
+      "comment" : "修改登录项失败时的错误提示，%@ 为系统错误描述",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't change the login item: %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法修改登录项：%@"
+          }
+        }
+      }
+    },
+    "无法运行 /usr/bin/nettop：%@" : {
+      "comment" : "网络监控启动失败时界面展示的失败原因",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn't run /usr/bin/nettop: %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法运行 /usr/bin/nettop：%@"
+          }
+        }
+      }
+    },
+    "时间" : {
+      "comment" : "24 小时柱状图的 X 轴维度名，用于图表与无障碍。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "时间"
+          }
+        }
+      }
+    },
+    "明文协议连接" : {
+      "comment" : "告警标题，出现在告警列表和系统通知标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unencrypted connection"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "明文协议连接"
+          }
+        }
+      }
+    },
+    "显示监听端口" : {
+      "comment" : "连接页筛选复选框。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show listening ports"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示监听端口"
+          }
+        }
+      }
+    },
+    "显示项目（拖动调整顺序）" : {
+      "comment" : "菜单栏页显示项目列表的区段标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Items to Show (drag to reorder)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示项目（拖动调整顺序）"
+          }
+        }
+      }
+    },
+    "暂无公网连接" : {
+      "comment" : "国家或服务商列表为空时的占位。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No public connections"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂无公网连接"
+          }
+        }
+      }
+    },
+    "暂无外部连接" : {
+      "comment" : "拓扑页没有外部连接时的空状态",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No external connections"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂无外部连接"
+          }
+        }
+      }
+    },
+    "暂无流量" : {
+      "comment" : "应用流量列表为空且监控已在运行",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No traffic"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂无流量"
+          }
+        }
+      }
+    },
+    "更新于 %@" : {
+      "comment" : "侧边栏底部：最近一次采样时间",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Updated at %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新于 %@"
+          }
+        }
+      }
+    },
+    "最近 1 小时 %lld 条注意级告警" : {
+      "comment" : "隐私评分扣分原因：最近一小时注意级告警条数",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld notice-level alerts in the last hour"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近 1 小时 %lld 条注意级告警"
+          }
+        }
+      }
+    },
+    "最近 1 小时 %lld 条警告" : {
+      "comment" : "隐私评分扣分原因：最近一小时警告级告警条数",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld warnings in the last hour"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近 1 小时 %lld 条警告"
+          }
+        }
+      }
+    },
+    "最近 24 小时流量（每 10 分钟）" : {
+      "comment" : "应用详情里 24 小时流量图的标题。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traffic over the last 24 hours (every 10 minutes)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近 24 小时流量（每 10 分钟）"
+          }
+        }
+      }
+    },
+    "最近 24 小时（每 10 分钟）" : {
+      "comment" : "总览页 24 小时柱状图卡片标题。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last 24 hours (every 10 minutes)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近 24 小时（每 10 分钟）"
+          }
+        }
+      }
+    },
+    "最近 60 分钟流量" : {
+      "comment" : "应用详情里 60 分钟流量图的标题。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traffic over the last 60 minutes"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近 60 分钟流量"
+          }
+        }
+      }
+    },
+    "最近 60 分钟（每分钟）" : {
+      "comment" : "总览页 60 分钟柱状图卡片标题。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last 60 minutes (each minute)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近 60 分钟（每分钟）"
+          }
+        }
+      }
+    },
+    "最近告警" : {
+      "comment" : "总览页最近告警卡片标题。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recent alerts"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最近告警"
+          }
+        }
+      }
+    },
+    "最高 %@" : {
+      "comment" : "CPU 温度行里的最高温度，%@ 为已格式化的温度",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Max %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最高 %@"
+          }
+        }
+      }
+    },
+    "服务" : {
+      "comment" : "连接表列：端口对应的服务名。 | 目的地表头：端口对应的服务。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Service"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "服务"
+          }
+        }
+      }
+    },
+    "未使用" : {
+      "comment" : "没有交换空间时交换行显示的文字",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unused"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未使用"
+          }
+        }
+      }
+    },
+    "未保存的内容将会丢失" : {
+      "comment" : "强制退出确认条上的说明",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unsaved changes will be lost"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未保存的内容将会丢失"
+          }
+        }
+      }
+    },
+    "未发现异常" : {
+      "comment" : "最近告警为空，或告警页在当前筛选下没有告警。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No anomalies found"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未发现异常"
+          }
+        }
+      }
+    },
+    "未知" : {
+      "comment" : "没有地理信息，或无法识别厂商。与其他「未知」同义。 | 未知状态。散热状态未知，以及未知的地理位置或厂商，同一含义。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未知"
+          }
+        }
+      }
+    },
+    "未知厂商" : {
+      "comment" : "局域网新设备告警详情中，查不到厂商时显示的回退词",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown vendor"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未知厂商"
+          }
+        }
+      }
+    },
+    "未知处理器" : {
+      "comment" : "读不到 CPU 品牌时的名称。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown processor"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未知处理器"
+          }
+        }
+      }
+    },
+    "本机" : {
+      "comment" : "连接地址范围：环回，本机。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This Mac"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本机"
+          }
+        }
+      }
+    },
+    "本机 → 应用 → 远端（流量最多的 %lld 个应用）。悬停查看远端地址，点击查看详情" : {
+      "comment" : "拓扑页页眉副标题，%lld 为展示的应用数量",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This Mac → Apps → Remotes (top %lld apps by traffic). Hover to see remote addresses, click for details."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本机 → 应用 → 远端（流量最多的 %lld 个应用）。悬停查看远端地址，点击查看详情"
+          }
+        }
+      }
+    },
+    "本机未配备风扇" : {
+      "comment" : "硬件上没有风扇时的说明",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This Mac has no fan"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本机未配备风扇"
+          }
+        }
+      }
+    },
+    "本次 ↓%@  ↑%@" : {
+      "comment" : "实时流量卡片标题右侧的本次上下行总量",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Session ↓%@  ↑%@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本次 ↓%@  ↑%@"
+          }
+        }
+      }
+    },
+    "本次上传" : {
+      "comment" : "应用详情 KPI：本次会话上传量。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uploaded this session"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本次上传"
+          }
+        }
+      }
+    },
+    "本次下载" : {
+      "comment" : "应用详情 KPI：本次会话下载量。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Downloaded this session"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本次下载"
+          }
+        }
+      }
+    },
+    "本次合计" : {
+      "comment" : "统计卡片中本次流量合计",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Session total"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本次合计"
+          }
+        }
+      }
+    },
+    "本次启动" : {
+      "comment" : "网络卡片中自本次启动以来的流量小标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Since launch"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本次启动"
+          }
+        }
+      }
+    },
+    "本次流量" : {
+      "comment" : "总览 KPI：本次监控会话的总流量。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traffic this session"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本次流量"
+          }
+        }
+      }
+    },
+    "某应用 30 秒平均上传 ≥ 1 MB/s，且为其 10 分钟基线的 8 倍以上。" : {
+      "comment" : "规则说明：上传流量突增。保留 MB/s。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "An app's average upload over 30 seconds is at least 1 MB/s and more than 8× its 10-minute baseline."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "某应用 30 秒平均上传 ≥ 1 MB/s，且为其 10 分钟基线的 8 倍以上。"
+          }
+        }
+      }
+    },
+    "核心 %lld（性能）：%@" : {
+      "comment" : "悬停 CPU 性能核柱时的帮助",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Core %lld (Performance): %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "核心 %lld（性能）：%@"
+          }
+        }
+      }
+    },
+    "核心 %lld（能效）：%@" : {
+      "comment" : "悬停 CPU 能效核柱时的帮助",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Core %lld (Efficiency): %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "核心 %lld（能效）：%@"
+          }
+        }
+      }
+    },
+    "核心 %lld：%@" : {
+      "comment" : "悬停无法区分类型的 CPU 核心柱时的帮助",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Core %lld: %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "核心 %lld：%@"
+          }
+        }
+      }
+    },
+    "检测规则" : {
+      "comment" : "告警页规则卡片标题。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detection rules"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "检测规则"
+          }
+        }
+      }
+    },
+    "概览" : {
+      "comment" : "面板页签：概览",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overview"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "概览"
+          }
+        }
+      }
+    },
+    "正在启动" : {
+      "comment" : "侧边栏底部运行状态",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starting"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在启动"
+          }
+        }
+      }
+    },
+    "正在启动网络监控…" : {
+      "comment" : "监控正在启动时的空状态",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Starting network monitoring…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在启动网络监控…"
+          }
+        }
+      }
+    },
+    "正在读取局域网设备…" : {
+      "comment" : "正在读取局域网设备时的空状态。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reading LAN devices…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在读取局域网设备…"
+          }
+        }
+      }
+    },
+    "正常" : {
+      "comment" : "状态正常。内存压力与散热状态共用。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Normal"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正常"
+          }
+        }
+      }
+    },
+    "此进程不提供结束操作" : {
+      "comment" : "单个受保护进程的禁用菜单项",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This process can't be ended."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此进程不提供结束操作"
+          }
+        }
+      }
+    },
+    "每分钟保存各应用的收发字节与告警到本机（~/Library/Application Support），24 小时前的数据自动删除，不会上传。" : {
+      "comment" : "网络历史区段的说明",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Once a minute, each app's sent and received bytes and alerts are saved on this Mac (~/Library/Application Support). Data older than 24 hours is deleted automatically and is never uploaded."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每分钟保存各应用的收发字节与告警到本机（~/Library/Application Support），24 小时前的数据自动删除，不会上传。"
+          }
+        }
+      }
+    },
+    "没有全部进程" : {
+      "comment" : "进程页在「全部」筛选下为空",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No processes"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有全部进程"
+          }
+        }
+      }
+    },
+    "没有命令行进程" : {
+      "comment" : "进程页在「命令行」筛选下为空",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No command-line processes"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有命令行进程"
+          }
+        }
+      }
+    },
+    "没有应用进程" : {
+      "comment" : "进程页在「应用」筛选下为空",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No app processes"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有应用进程"
+          }
+        }
+      }
+    },
+    "没有扣分项：未发现明文连接、可疑告警或对外开放的端口。" : {
+      "comment" : "隐私评分卡片在没有扣分项时的说明。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No deductions: no unencrypted connections, suspicious alerts, or ports open to the outside."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有扣分项：未发现明文连接、可疑告警或对外开放的端口。"
+          }
+        }
+      }
+    },
+    "没有系统进程" : {
+      "comment" : "进程页在「系统」筛选下为空",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No system processes"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有系统进程"
+          }
+        }
+      }
+    },
+    "没有读取到局域网设备" : {
+      "comment" : "局域网设备列表为空，且未获得本地网络权限时的提示。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No LAN devices found"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "没有读取到局域网设备"
+          }
+        }
+      }
+    },
+    "注意及以上" : {
+      "comment" : "告警筛选：严重级别至少为注意。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notice and above"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "注意及以上"
+          }
+        }
+      }
+    },
+    "活跃连接" : {
+      "comment" : "统计卡片中的活跃连接数 | 总览与应用详情的 KPI 标题。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Active connections"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "活跃连接"
+          }
+        }
+      }
+    },
+    "流量" : {
+      "comment" : "24 小时与 60 分钟柱状图的 Y 轴/系列名。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traffic"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "流量"
+          }
+        }
+      }
+    },
+    "流量最多的应用（24 小时）" : {
+      "comment" : "总览流量排行卡片标题，范围为 24 小时。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top apps by traffic (24 hours)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "流量最多的应用（24 小时）"
+          }
+        }
+      }
+    },
+    "流量最多的应用（本次）" : {
+      "comment" : "总览流量排行卡片标题，范围为本次会话。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top apps by traffic (this session)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "流量最多的应用（本次）"
+          }
+        }
+      }
+    },
+    "清空" : {
+      "comment" : "清空当前告警列表的按钮。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清空"
+          }
+        }
+      }
+    },
+    "清除网络历史" : {
+      "comment" : "清除网络历史按钮",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear Network History"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清除网络历史"
+          }
+        }
+      }
+    },
+    "温度单位" : {
+      "comment" : "通用页温度单位选择器的标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temperature Unit"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "温度单位"
+          }
+        }
+      }
+    },
+    "热状态 %@" : {
+      "comment" : "顶栏热状态徽章，%@ 为热状态等级",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thermal %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "热状态 %@"
+          }
+        }
+      }
+    },
+    "版本 %@" : {
+      "comment" : "关于页版本号，%@ 为短版本号",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "版本 %@"
+          }
+        }
+      }
+    },
+    "状态" : {
+      "comment" : "连接表列：连接状态。 | 目的地表头：连接状态。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "State"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "状态"
+          }
+        }
+      }
+    },
+    "现在" : {
+      "comment" : "柱状图横轴上表示当前时刻的刻度。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Now"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "现在"
+          }
+        }
+      }
+    },
+    "用户" : {
+      "comment" : "CPU 卡片用户态占用行的标签",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "User"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用户"
+          }
+        }
+      }
+    },
+    "略高" : {
+      "comment" : "散热状态略高。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slightly elevated"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "略高"
+          }
+        }
+      }
+    },
+    "疑似端口扫描" : {
+      "comment" : "告警标题，出现在告警列表和系统通知标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Possible port scan"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "疑似端口扫描"
+          }
+        }
+      }
+    },
+    "登录时启动 Zest" : {
+      "comment" : "通用页登录时启动开关",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Launch Zest at Login"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登录时启动 Zest"
+          }
+        }
+      }
+    },
+    "监听" : {
+      "comment" : "连接表状态列：UDP 没有远端，或 TCP Listen。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listening"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "监听"
+          }
+        }
+      }
+    },
+    "监听 %@" : {
+      "comment" : "无远端地址时，连接位置展示为本地监听地址",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listening on %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "监听 %@"
+          }
+        }
+      }
+    },
+    "监听 %lld" : {
+      "comment" : "活跃连接下方的副标题。%lld 是正在监听的连接数。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listening %lld"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "监听 %lld"
+          }
+        }
+      }
+    },
+    "监听端口" : {
+      "comment" : "统计卡片中的监听端口数 | 应用正在监听的端口卡片标题。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Listening ports"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "监听端口"
+          }
+        }
+      }
+    },
+    "监控中" : {
+      "comment" : "侧边栏底部运行状态",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Monitoring"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "监控中"
+          }
+        }
+      }
+    },
+    "目的地" : {
+      "comment" : "应用详情中外部连接表的标题。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destinations"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目的地"
+          }
+        }
+      }
+    },
+    "确认清除全部历史？" : {
+      "comment" : "清除网络历史按钮的二次确认文案",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear all history?"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "确认清除全部历史？"
+          }
+        }
+      }
+    },
+    "磁盘" : {
+      "comment" : "磁盘卡片标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disk"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "磁盘"
+          }
+        }
+      }
+    },
+    "磁盘占用" : {
+      "comment" : "菜单栏可显示项目：磁盘",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disk Usage"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "磁盘占用"
+          }
+        }
+      }
+    },
+    "私有 MAC 地址" : {
+      "comment" : "局域网新设备告警详情中，随机化 MAC 且查不到厂商时显示的回退词",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Private MAC address"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "私有 MAC 地址"
+          }
+        }
+      }
+    },
+    "私有地址（随机 MAC）" : {
+      "comment" : "随机 MAC 且查不到厂商时的回退。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Private address (randomized MAC)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "私有地址（随机 MAC）"
+          }
+        }
+      }
+    },
+    "等待关闭" : {
+      "comment" : "连接表状态列：TCP CloseWait。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Waiting to close"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "等待关闭"
+          }
+        }
+      }
+    },
+    "系统关键进程，不提供结束操作" : {
+      "comment" : "受保护系统进程的禁用菜单项",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Critical system process; it can't be ended."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系统关键进程，不提供结束操作"
+          }
+        }
+      }
+    },
+    "系统热状态（ProcessInfo.thermalState，公开 API）" : {
+      "comment" : "热状态徽章的帮助提示",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "System thermal state (ProcessInfo.thermalState, public API)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系统热状态（ProcessInfo.thermalState，公开 API）"
+          }
+        }
+      }
+    },
+    "结束进程 %@（%lld）" : {
+      "comment" : "子进程操作菜单中的结束项",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quit %@ (%lld)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "结束进程 %@（%lld）"
+          }
+        }
+      }
+    },
+    "统计" : {
+      "comment" : "网络页统计卡片标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Statistics"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "统计"
+          }
+        }
+      }
+    },
+    "网关" : {
+      "comment" : "局域网设备是默认网关时的标记。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gateway"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "网关"
+          }
+        }
+      }
+    },
+    "网卡累计" : {
+      "comment" : "网络卡片中当前网卡计数器累计的小标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Interface total"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "网卡累计"
+          }
+        }
+      }
+    },
+    "网络" : {
+      "comment" : "网络卡片标题，以及面板的网络页签 | 设置窗口的「网络」标签",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Network"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "网络"
+          }
+        }
+      }
+    },
+    "网络历史" : {
+      "comment" : "网络页网络历史区段的标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Network History"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "网络历史"
+          }
+        }
+      }
+    },
+    "网络监控" : {
+      "comment" : "窗口标题（菜单、调度中心、辅助功能）和侧边栏顶部标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Network Monitor"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "网络监控"
+          }
+        }
+      }
+    },
+    "网络监控未开启" : {
+      "comment" : "网络页在监控关闭时的卡片标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Network monitoring is off"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "网络监控未开启"
+          }
+        }
+      }
+    },
+    "网络速度" : {
+      "comment" : "菜单栏可显示项目：网络",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Network Speed"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "网络速度"
+          }
+        }
+      }
+    },
+    "联动" : {
+      "comment" : "内存卡片联动内存（wired）行",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Wired"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "联动"
+          }
+        }
+      }
+    },
+    "联网应用" : {
+      "comment" : "总览 KPI 与统计卡片：当前有流量或连接的应用数。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Online apps"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "联网应用"
+          }
+        }
+      }
+    },
+    "能效核 ×%lld" : {
+      "comment" : "CPU 核心图例中的能效核数量",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Efficiency ×%lld"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "能效核 ×%lld"
+          }
+        }
+      }
+    },
+    "范围" : {
+      "comment" : "连接表列：公网、局域网或保留。 | 目的地表头：连接范围，如公网或局域网。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scope"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "范围"
+          }
+        }
+      }
+    },
+    "范围 %lld–%lld RPM" : {
+      "comment" : "风扇最低到最高转速。RPM 是单位，不翻译",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Range %lld–%lld RPM"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "范围 %lld–%lld RPM"
+          }
+        }
+      }
+    },
+    "菜单栏" : {
+      "comment" : "设置窗口的「菜单栏」标签",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menu Bar"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "菜单栏"
+          }
+        }
+      }
+    },
+    "解析远端主机名" : {
+      "comment" : "网络页解析远端主机名开关",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Resolve Remote Hostnames"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "解析远端主机名"
+          }
+        }
+      }
+    },
+    "设置" : {
+      "comment" : "页脚齿轮按钮的帮助提示 | 网络监控关闭卡片上的设置链接，与面板页脚同一含义",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置"
+          }
+        }
+      }
+    },
+    "详细连接" : {
+      "comment" : "应用流量卡片末尾打开网络窗口的链接",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connection details"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "详细连接"
+          }
+        }
+      }
+    },
+    "语言" : {
+      "comment" : "语言选择器标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "语言"
+          }
+        }
+      }
+    },
+    "请求本地网络权限" : {
+      "comment" : "请求本地网络权限的按钮。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Request Local Network Permission"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请求本地网络权限"
+          }
+        }
+      }
+    },
+    "读取" : {
+      "comment" : "磁盘读取速率行",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Read"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "读取"
+          }
+        }
+      }
+    },
+    "读取中…" : {
+      "comment" : "指标或传感器尚未读到时的占位文案 | 占用数据尚未读到时的占位文字",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reading…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "读取中…"
+          }
+        }
+      }
+    },
+    "读取系统 ARP 表被动发现设备，不发送扫描或探测包" : {
+      "comment" : "局域网页副标题。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Finds devices passively from the system ARP table. No scans or probes are sent."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "读取系统 ARP 表被动发现设备，不发送扫描或探测包"
+          }
+        }
+      }
+    },
+    "负载 %.2f  %.2f  %.2f" : {
+      "comment" : "CPU 卡片标题右侧的 1、5、15 分钟负载均值",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Load %.2f  %.2f  %.2f"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "负载 %.2f  %.2f  %.2f"
+          }
+        }
+      }
+    },
+    "跟随系统" : {
+      "comment" : "语言选择器：跟随系统",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Follow System"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "跟随系统"
+          }
+        }
+      }
+    },
+    "轻量的 macOS 菜单栏系统监控工具。" : {
+      "comment" : "关于页的一句话介绍",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A lightweight menu bar system monitor for macOS."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "轻量的 macOS 菜单栏系统监控工具。"
+          }
+        }
+      }
+    },
+    "过热" : {
+      "comment" : "散热状态过热。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Overheating"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "过热"
+          }
+        }
+      }
+    },
+    "运行 %@" : {
+      "comment" : "侧边栏底部：监控已运行时长，%@ 为 Fmt.duration 的结果",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Running %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "运行 %@"
+          }
+        }
+      }
+    },
+    "进程" : {
+      "comment" : "面板页签：进程",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Processes"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "进程"
+          }
+        }
+      }
+    },
+    "远端" : {
+      "comment" : "连接表列：远端地址。 | 目的地表头：远端地址。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Remote"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "远端"
+          }
+        }
+      }
+    },
+    "连接中" : {
+      "comment" : "连接表状态列：TCP SynSent。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connecting"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接中"
+          }
+        }
+      }
+    },
+    "连接到常见于远程控制、IRC 或恶意软件的公网端口（如 4444、6667、31337）。" : {
+      "comment" : "规则说明：可疑端口连接。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connects to a public port often used for remote access, IRC, or malware (for example 4444, 6667, or 31337)."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接到常见于远程控制、IRC 或恶意软件的公网端口（如 4444、6667、31337）。"
+          }
+        }
+      }
+    },
+    "连接的国家 / 地区" : {
+      "comment" : "国家/地区分布卡片标题。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Countries and regions"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接的国家 / 地区"
+          }
+        }
+      }
+    },
+    "退出 Zest" : {
+      "comment" : "页脚电源按钮的帮助提示",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quit Zest"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出 Zest"
+          }
+        }
+      }
+    },
+    "退出“%@”" : {
+      "comment" : "应用操作菜单中的退出项",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quit “%@”"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出“%@”"
+          }
+        }
+      }
+    },
+    "退出、强制退出…" : {
+      "comment" : "进程表右键菜单项，点开后弹出操作菜单",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quit, Force Quit…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出、强制退出…"
+          }
+        }
+      }
+    },
+    "退出或强制退出" : {
+      "comment" : "行尾省略号按钮的无障碍说明",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quit or Force Quit"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出或强制退出"
+          }
+        }
+      }
+    },
+    "选择一个应用，查看它连接了哪里、用了多少流量" : {
+      "comment" : "尚未选中应用时右侧的空状态说明。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Select an app to see where it connects and how much traffic it uses."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "选择一个应用，查看它连接了哪里、用了多少流量"
+          }
+        }
+      }
+    },
+    "通用" : {
+      "comment" : "设置窗口的「通用」标签",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "General"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通用"
+          }
+        }
+      }
+    },
+    "通过 HTTP、FTP、Telnet、POP3、IMAP 等未加密协议连接公网。" : {
+      "comment" : "规则说明：明文协议连接。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connects to the internet over an unencrypted protocol such as HTTP, FTP, Telnet, POP3, or IMAP."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "通过 HTTP、FTP、Telnet、POP3、IMAP 等未加密协议连接公网。"
+          }
+        }
+      }
+    },
+    "隐私评分" : {
+      "comment" : "总览 KPI 与隐私评分卡片的标题。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy score"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隐私评分"
+          }
+        }
+      }
+    },
+    "需授权" : {
+      "comment" : "局域网设备数因未授权而无法显示",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Permission needed"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需授权"
+          }
+        }
+      }
+    },
+    "需要在“系统设置 › 通用 › 登录项”中允许 Zest。" : {
+      "comment" : "登录项需要用户批准时的提示",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow Zest in System Settings › General › Login Items."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要在“系统设置 › 通用 › 登录项”中允许 Zest。"
+          }
+        }
+      }
+    },
+    "非系统应用在所有网络接口上监听 TCP 端口，局域网内的设备可以访问。" : {
+      "comment" : "规则说明：对外开放的端口。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A non-system app is listening for TCP on all network interfaces, so devices on the LAN can reach it."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "非系统应用在所有网络接口上监听 TCP 端口，局域网内的设备可以访问。"
+          }
+        }
+      }
+    },
+    "频率越低越省电。所有指标在同一个定时器中采集，系统可合并唤醒。" : {
+      "comment" : "通用页刷新频率下方的说明",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Less frequent updates use less power. All metrics are sampled on the same timer, so the system can coalesce wakeups."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "频率越低越省电。所有指标在同一个定时器中采集，系统可合并唤醒。"
+          }
+        }
+      }
+    },
+    "风扇" : {
+      "comment" : "风扇卡片标题",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fans"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "风扇"
+          }
+        }
+      }
+    },
+    "风扇 %lld" : {
+      "comment" : "单个风扇的名称，%lld 为从 1 开始的序号",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fan %lld"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "风扇 %lld"
+          }
+        }
+      }
+    },
+    "风扇转速" : {
+      "comment" : "菜单栏可显示项目：风扇",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fan Speed"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "风扇转速"
+          }
+        }
+      }
+    },
+    "首次发现" : {
+      "comment" : "局域网设备表列：第一次出现的时间。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "First Seen"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "首次发现"
+          }
+        }
+      }
+    },
+    "自动下载并安装更新" : {
+      "comment" : "关于页。对应 Sparkle 的自动下载并安装。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Download and install updates automatically"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动下载并安装更新"
+          }
+        }
+      }
+    },
+    "自动检查更新" : {
+      "comment" : "关于页。每天检查 Sparkle appcast。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check for updates automatically"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动检查更新"
+          }
+        }
+      }
+    },
+    "检查更新…" : {
+      "comment" : "关于页按钮，立即检查 Sparkle 更新。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Check for Updates…"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "检查更新…"
+          }
+        }
+      }
+    },
+    "每天向 zest.bytenote.net 查询一次是否有新版本。" : {
+      "comment" : "关于页自动检查说明。域名不翻译。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Checks zest.bytenote.net once a day for a new version."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每天向 zest.bytenote.net 查询一次是否有新版本。"
+          }
+        }
+      }
+    },
+    "，%@ 版" : {
+      "comment" : "IP 归属地脚注里的数据月份，%@ 如 2025-08。紧挨 DB-IP 署名之后。",
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ", %@ edition"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "，%@ 版"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

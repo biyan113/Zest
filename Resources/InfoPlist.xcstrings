@@ -1,0 +1,40 @@
+{
+  "sourceLanguage" : "zh-Hans",
+  "strings" : {
+    "NSHumanReadableCopyright" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GPL-3.0-or-later. Some monitoring logic is derived from Tencent Lemon Cleaner."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "GPL-3.0-or-later. 部分监控逻辑源自 Tencent Lemon Cleaner。"
+          }
+        }
+      }
+    },
+    "NSLocalNetworkUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zest reads the system ARP table to list devices on the local network. It does not send scan or probe packets to the local network."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zest 读取系统 ARP 表，以列出局域网中的设备。不会向局域网发送扫描或探测包。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

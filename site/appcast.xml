@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Zest</title>
+    <link>https://zest.bytenote.net/appcast.xml</link>
+    <description>Zest 的更新列表。有新版本时把已签名的安装包加到这里。</description>
+    <language>zh-Hans</language>
+  </channel>
+</rss>
