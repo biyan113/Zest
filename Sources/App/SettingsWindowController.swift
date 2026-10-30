@@ -11,8 +11,8 @@ import SwiftUI
 final class SettingsWindowController: NSWindowController, NSWindowDelegate {
     private var languageCancellable: AnyCancellable?
 
-    convenience init(settings: AppSettings, network: NetworkMonitor? = nil, updater: SPUUpdater? = nil) {
-        let hosting = NSHostingController(rootView: SettingsView(settings: settings, network: network, updater: updater))
+    convenience init(settings: AppSettings, network: NetworkMonitor? = nil, updater: SPUUpdater? = nil, tools: QuickToolsController? = nil) {
+        let hosting = NSHostingController(rootView: SettingsView(settings: settings, network: network, updater: updater, tools: tools))
         let window = NSWindow(contentViewController: hosting)
         window.styleMask = [.titled, .closable]
         window.isReleasedWhenClosed = false

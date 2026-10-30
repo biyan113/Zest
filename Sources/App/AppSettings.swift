@@ -53,6 +53,12 @@ final class AppSettings: ObservableObject {
     @Published var menuBarEntries: [MenuBarEntry] { didSet { saveEntries() } }
     @Published var temperatureUnit: TemperatureUnit { didSet { defaults.set(temperatureUnit.rawValue, forKey: Keys.unit) } }
     @Published var launchAtLoginError: String?
+    @Published var toolEntries: [ToolEntry] {
+        didSet { if let data = try? JSONEncoder().encode(toolEntries) { defaults.set(data, forKey: Keys.tools) } }
+    }
+    @Published var awakeMinutes: Int { didSet { defaults.set(awakeMinutes, forKey: Keys.awakeMinutes) } }
+    @Published var cleaningSeconds: Int { didSet { defaults.set(cleaningSeconds, forKey: Keys.cleaningSeconds) } }
+    @Published var dockDisplayID: UInt32 { didSet { defaults.set(Int(dockDisplayID), forKey: Keys.dockDisplayID) } }
     @Published var appLanguage: AppLanguage {
         didSet {
             guard appLanguage != oldValue else { return }
@@ -82,6 +88,10 @@ final class AppSettings: ObservableObject {
         static let alertNotifications = "alertNotifications"
         static let suppressions = "alertSuppressions"
         static let appLanguage = "appLanguage"
+        static let tools = "quickToolEntries"
+        static let awakeMinutes = "toolsAwakeMinutes"
+        static let cleaningSeconds = "toolsCleaningSeconds"
+        static let dockDisplayID = "toolsDockDisplayID"
     }
 
     static let defaultEntries: [MenuBarEntry] = [
@@ -95,6 +105,12 @@ final class AppSettings: ObservableObject {
 
     init(defaults: UserDefaults = .standard) {
         self.defaults = defaults
+        toolEntries = ToolEntry.load(defaults.data(forKey: Keys.tools))
+        let minutes = defaults.object(forKey: Keys.awakeMinutes) as? Int ?? 30
+        awakeMinutes = [0, 15, 30, 60, 120].contains(minutes) ? minutes : 30
+        let seconds = defaults.integer(forKey: Keys.cleaningSeconds)
+        cleaningSeconds = [30, 60, 120].contains(seconds) ? seconds : 60
+        dockDisplayID = UInt32(clamping: defaults.integer(forKey: Keys.dockDisplayID))
         let interval = defaults.double(forKey: Keys.interval)
         refreshInterval = AppSettings.refreshChoices.contains(interval) ? interval : 1
         temperatureUnit = TemperatureUnit(rawValue: defaults.string(forKey: Keys.unit) ?? "") ?? .celsius
