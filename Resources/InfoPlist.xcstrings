@@ -34,6 +34,23 @@
           }
         }
       }
+    },
+    "NSAppleEventsUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zest 使用系统自动化切换外观、菜单栏显示以及按确认清空废纸篓。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zest uses system automation to change appearance and menu bar visibility, and to empty the Trash after confirmation."
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

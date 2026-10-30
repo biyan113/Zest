@@ -21,6 +21,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     private var settingsWindow: SettingsWindowController?
     /// 只在菜单栏进程启动。网络窗口进程与测试进程不检查更新。
     private var updaterController: SPUStandardUpdaterController?
+    private var quickTools: QuickToolsController?
     private var cancellables = Set<AnyCancellable>()
     private var screensAsleep = false
     private var applicationExitObserver: NSObjectProtocol?
@@ -44,7 +45,13 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             return
         }
         NSApp.setActivationPolicy(.accessory)
-        updaterController = SPUStandardUpdaterController(startingUpdater: true, updaterDelegate: nil, userDriverDelegate: nil)
+        if Bundle.main.object(forInfoDictionaryKey: "ZestCustomBuild") as? Bool != true {
+            updaterController = SPUStandardUpdaterController(startingUpdater: true, updaterDelegate: nil, userDriverDelegate: nil)
+        }
+        let tools = QuickToolsController(settings: settings)
+        quickTools = tools
+        tools.closePanel = { [weak self] in self?.statusItem?.closePanel() }
+        tools.start()
 
         // 网络监控窗口进程修改了告警或忽略规则：重新加载。
         DistributedNotificationCenter.default().addObserver(
@@ -55,7 +62,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
         statusItem = StatusItemController(store: store, settings: settings, network: network, processes: processes,
                                           openSettings: { [weak self] in self?.openSettings() },
-                                          openNetworkWindow: { [weak self] in self?.openNetworkWindow() })
+                                          openNetworkWindow: { [weak self] in self?.openNetworkWindow() }, tools: tools)
         statusItem?.onPanelVisibilityChange = { [weak self] visible in
             guard let self else { return }
             if visible && UserDefaults.standard.string(forKey: "panelTab") != "processes" { engine.refreshCapacity() }
@@ -222,6 +229,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
     #endif
 
     func applicationWillTerminate(_ notification: Notification) {
+        quickTools?.stop()
         #if PERFORMANCE_TEST
         if isPerformanceRun {
             if let performancePanelPreference {
@@ -304,7 +312,7 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
 
     private func openSettings() {
         if settingsWindow == nil {
-            settingsWindow = SettingsWindowController(settings: settings, network: network, updater: updaterController?.updater)
+            settingsWindow = SettingsWindowController(settings: settings, network: network, updater: updaterController?.updater, tools: quickTools)
         }
         settingsWindow?.present()
     }

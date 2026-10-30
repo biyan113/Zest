@@ -5490,6 +5490,1298 @@
           }
         }
       }
+    },
+    "%lld 分钟" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 分钟"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld minutes"
+          }
+        }
+      }
+    },
+    "%lld 秒后自动退出" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 秒后自动退出"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exits automatically in %lld seconds"
+          }
+        }
+      }
+    },
+    "Dock 固定屏幕" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dock 固定屏幕"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep Dock on"
+          }
+        }
+      }
+    },
+    "Dock 锁定已被系统暂停，请重新开启。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dock 锁定已被系统暂停，请重新开启。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "macOS paused Dock lock. Turn it on again."
+          }
+        }
+      }
+    },
+    "主显示器" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主显示器"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Main display"
+          }
+        }
+      }
+    },
+    "亮屏 / 合盖模式时长" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "亮屏 / 合盖模式时长"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep-awake / closed-lid duration"
+          }
+        }
+      }
+    },
+    "保持亮屏" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保持亮屏"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep awake"
+          }
+        }
+      }
+    },
+    "全屏黑色背景方便清洁；按 Esc 或点击退出。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全屏黑色背景方便清洁；按 Esc 或点击退出。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A full-screen black background for cleaning. Press Esc or click Exit."
+          }
+        }
+      }
+    },
+    "关闭提示" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关闭提示"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dismiss message"
+          }
+        }
+      }
+    },
+    "切换系统深浅色；首次使用需要允许自动化控制 System Events。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切换系统深浅色；首次使用需要允许自动化控制 System Events。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Switch system appearance. Allow automation of System Events on first use."
+          }
+        }
+      }
+    },
+    "切换系统菜单栏自动隐藏；需要自动化权限。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "切换系统菜单栏自动隐藏；需要自动化权限。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toggle automatic menu bar hiding. Requires Automation permission."
+          }
+        }
+      }
+    },
+    "剩余 %lld 分钟" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "剩余 %lld 分钟"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld minutes remaining"
+          }
+        }
+      }
+    },
+    "包含 ⌘、⌥ 或 ⌃；Esc 取消，Delete 清除。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "包含 ⌘、⌥ 或 ⌃；Esc 取消，Delete 清除。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Include ⌘, ⌥ or ⌃. Esc cancels; Delete clears."
+          }
+        }
+      }
+    },
+    "合盖不休眠" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "合盖不休眠"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Closed-lid awake"
+          }
+        }
+      }
+    },
+    "启用工具，拖动调整顺序" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "启用工具，拖动调整顺序"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enable tools and drag to reorder"
+          }
+        }
+      }
+    },
+    "处理中…" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "处理中…"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Working…"
+          }
+        }
+      }
+    },
+    "尚未启用工具，请在设置中选择。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尚未启用工具，请在设置中选择。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No tools enabled. Choose tools in Settings."
+          }
+        }
+      }
+    },
+    "屏幕清洁中" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "屏幕清洁中"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cleaning screen"
+          }
+        }
+      }
+    },
+    "工具" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "工具"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tools"
+          }
+        }
+      }
+    },
+    "已开启" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已开启"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "On"
+          }
+        }
+      }
+    },
+    "常用操作，触手可及" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "常用操作，触手可及"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Everyday actions, one click away"
+          }
+        }
+      }
+    },
+    "废纸篓中的项目将被永久删除，此操作无法撤销。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "废纸篓中的项目将被永久删除，此操作无法撤销。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Items in the Trash will be permanently deleted. This cannot be undone."
+          }
+        }
+      }
+    },
+    "快捷工具" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快捷工具"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quick tools"
+          }
+        }
+      }
+    },
+    "快捷工具定制版：已停用官方自动更新，以保留定制功能。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快捷工具定制版：已停用官方自动更新，以保留定制功能。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Custom Quick Tools edition. Official automatic updates are disabled to preserve your features."
+          }
+        }
+      }
+    },
+    "快捷键仅对已启用工具生效。省电和合盖模式会请求管理员授权；清洁模式可用 ⌃⌥⌘ Esc 紧急退出。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快捷键仅对已启用工具生效。省电和合盖模式会请求管理员授权；清洁模式可用 ⌃⌥⌘ Esc 紧急退出。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shortcuts apply to enabled tools. Power modes request administrator authorization. Emergency cleaning exit: ⌃⌥⌘ Esc."
+          }
+        }
+      }
+    },
+    "快捷键被系统或其他应用占用，请重新设置。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快捷键被系统或其他应用占用，请重新设置。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This shortcut is reserved by macOS or another app. Choose another."
+          }
+        }
+      }
+    },
+    "快捷键需要包含 ⌘、⌥ 或 ⌃ 修饰键。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "快捷键需要包含 ⌘、⌥ 或 ⌃ 修饰键。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Include a Command, Option, or Control modifier."
+          }
+        }
+      }
+    },
+    "所选显示器不可用，请在快捷工具设置中重新选择。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "所选显示器不可用，请在快捷工具设置中重新选择。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The selected display is unavailable. Choose another in Quick Tools settings."
+          }
+        }
+      }
+    },
+    "按 Esc 或点击下方按钮退出。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "按 Esc 或点击下方按钮退出。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Press Esc or click the button below to exit."
+          }
+        }
+      }
+    },
+    "无法创建保持亮屏会话。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法创建保持亮屏会话。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could not start a keep-awake session."
+          }
+        }
+      }
+    },
+    "无法启用 Dock 锁定，请检查辅助功能权限。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法启用 Dock 锁定，请检查辅助功能权限。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could not lock Dock. Check Accessibility permission."
+          }
+        }
+      }
+    },
+    "无法屏蔽键盘输入，请检查辅助功能权限。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法屏蔽键盘输入，请检查辅助功能权限。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could not block keyboard input. Check Accessibility permission."
+          }
+        }
+      }
+    },
+    "无法注册快捷键监听。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无法注册快捷键监听。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Could not register keyboard shortcuts."
+          }
+        }
+      }
+    },
+    "显示器配置已变化，Dock 锁定已关闭，请确认目标屏幕后重新开启。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "显示器配置已变化，Dock 锁定已关闭，请确认目标屏幕后重新开启。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Displays changed. Dock lock was turned off. Check the target display and enable it again."
+          }
+        }
+      }
+    },
+    "普通按键已屏蔽。紧急退出：⌃⌥⌘ Esc" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "普通按键已屏蔽。紧急退出：⌃⌥⌘ Esc"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ordinary keys are blocked. Emergency exit: ⌃⌥⌘ Esc"
+          }
+        }
+      }
+    },
+    "暂时屏蔽普通键盘输入；点击退出或等待倒计时恢复。电源键和 Touch ID 不受控制。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂时屏蔽普通键盘输入；点击退出或等待倒计时恢复。电源键和 Touch ID 不受控制。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporarily block ordinary keys. Click Exit or wait for the countdown. Power and Touch ID keys are not controlled."
+          }
+        }
+      }
+    },
+    "未连接的显示器" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未连接的显示器"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disconnected display"
+          }
+        }
+      }
+    },
+    "此 Mac 无合盖功能" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此 Mac 无合盖功能"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No laptop lid"
+          }
+        }
+      }
+    },
+    "此 Mac 没有合盖功能。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此 Mac 没有合盖功能。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This Mac does not have a laptop lid."
+          }
+        }
+      }
+    },
+    "此快捷键已分配给其他工具。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "此快捷键已分配给其他工具。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This shortcut is assigned to another tool."
+          }
+        }
+      }
+    },
+    "深色模式" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "深色模式"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dark mode"
+          }
+        }
+      }
+    },
+    "清倒废纸篓" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清倒废纸篓"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empty Trash"
+          }
+        }
+      }
+    },
+    "清洁屏幕" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清洁屏幕"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clean screen"
+          }
+        }
+      }
+    },
+    "清洁模式自动退出" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清洁模式自动退出"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cleaning timeout"
+          }
+        }
+      }
+    },
+    "清洁键盘" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清洁键盘"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clean keyboard"
+          }
+        }
+      }
+    },
+    "清空 Finder 废纸篓；执行前需要确认，清空后无法撤销。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清空 Finder 废纸篓；执行前需要确认，清空后无法撤销。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empty the Finder Trash after confirmation. This cannot be undone."
+          }
+        }
+      }
+    },
+    "清空废纸篓" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清空废纸篓"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empty Trash"
+          }
+        }
+      }
+    },
+    "清空废纸篓？" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清空废纸篓？"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empty the Trash?"
+          }
+        }
+      }
+    },
+    "点按执行" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点按执行"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Run"
+          }
+        }
+      }
+    },
+    "直到手动关闭" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "直到手动关闭"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Until turned off"
+          }
+        }
+      }
+    },
+    "省电模式" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "省电模式"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Low power"
+          }
+        }
+      }
+    },
+    "立即启动系统屏幕保护程序。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即启动系统屏幕保护程序。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start the system screen saver."
+          }
+        }
+      }
+    },
+    "立即锁定 Mac；需要辅助功能权限。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即锁定 Mac；需要辅助功能权限。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lock your Mac immediately. Requires Accessibility permission."
+          }
+        }
+      }
+    },
+    "管理快捷工具" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "管理快捷工具"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manage quick tools"
+          }
+        }
+      }
+    },
+    "系统操作未完成。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "系统操作未完成。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The system operation did not complete."
+          }
+        }
+      }
+    },
+    "缺少电源会话脚本，请重新构建应用。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "缺少电源会话脚本，请重新构建应用。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The power-session script is missing. Rebuild the app."
+          }
+        }
+      }
+    },
+    "自动化权限" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动化权限"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automation"
+          }
+        }
+      }
+    },
+    "自动隐藏菜单栏" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自动隐藏菜单栏"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hide menu bar"
+          }
+        }
+      }
+    },
+    "若权限被拒绝，请在系统设置 › 隐私与安全性中检查自动化或辅助功能。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "若权限被拒绝，请在系统设置 › 隐私与安全性中检查自动化或辅助功能。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "If permission was denied, check Automation or Accessibility under System Settings > Privacy & Security."
+          }
+        }
+      }
+    },
+    "设置快捷键" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置快捷键"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Set shortcut"
+          }
+        }
+      }
+    },
+    "请在系统设置 › 隐私与安全性 › 辅助功能中允许 Zest，然后再次点击此工具。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请在系统设置 › 隐私与安全性 › 辅助功能中允许 Zest，然后再次点击此工具。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allow Zest under System Settings > Privacy & Security > Accessibility, then click this tool again."
+          }
+        }
+      }
+    },
+    "请按快捷键…" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请按快捷键…"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Press shortcut…"
+          }
+        }
+      }
+    },
+    "辅助功能权限" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "辅助功能权限"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accessibility"
+          }
+        }
+      }
+    },
+    "进入屏保" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "进入屏保"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Screen saver"
+          }
+        }
+      }
+    },
+    "连接至少两台显示器后才能锁定 Dock。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "连接至少两台显示器后才能锁定 Dock。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect at least two displays to lock Dock."
+          }
+        }
+      }
+    },
+    "退出清洁模式" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出清洁模式"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exit cleaning"
+          }
+        }
+      }
+    },
+    "部分工具首次使用需要系统授权。临时模式到期或退出 Zest 后自动结束。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "部分工具首次使用需要系统授权。临时模式到期或退出 Zest 后自动结束。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Some tools request permission on first use. Temporary modes end on timeout or when Zest quits."
+          }
+        }
+      }
+    },
+    "锁定 Dock" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "锁定 Dock"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lock Dock"
+          }
+        }
+      }
+    },
+    "锁屏" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "锁屏"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lock screen"
+          }
+        }
+      }
+    },
+    "键盘清洁中" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "键盘清洁中"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cleaning keyboard"
+          }
+        }
+      }
+    },
+    "阻止屏幕因闲置而关闭，计时结束或退出 Zest 后恢复。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "阻止屏幕因闲置而关闭，计时结束或退出 Zest 后恢复。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keep the display awake until timeout or until Zest quits."
+          }
+        }
+      }
+    },
+    "阻止鼠标在其他屏幕边缘唤出 Dock。需要辅助功能权限，会避开这些边缘的 4 个点；可随时关闭。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "阻止鼠标在其他屏幕边缘唤出 Dock。需要辅助功能权限，会避开这些边缘的 4 个点；可随时关闭。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prevent Dock from appearing at other display edges. Requires Accessibility. The pointer avoids 4 points at those edges; disable anytime."
+          }
+        }
+      }
+    },
+    "需要多显示器" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要多显示器"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Multiple displays"
+          }
+        }
+      }
+    },
+    "需要管理员授权，临时关闭系统睡眠；关闭、到期或 Zest 退出后由独立守护进程恢复原设置。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要管理员授权，临时关闭系统睡眠；关闭、到期或 Zest 退出后由独立守护进程恢复原设置。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Temporarily disable system sleep with administrator authorization. An independent watcher restores the original setting on timeout, disable, or app exit."
+          }
+        }
+      }
+    },
+    "需要管理员授权，同时切换电池和接通电源时的低电量模式；退出 Zest 后保留。" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要管理员授权，同时切换电池和接通电源时的低电量模式；退出 Zest 后保留。"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toggle Low Power Mode for battery and AC power with administrator authorization. This setting remains after Zest quits."
+          }
+        }
+      }
+    },
+    "tool.off" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已关闭"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Off"
+          }
+        }
+      }
     }
   },
   "version" : "1.0"

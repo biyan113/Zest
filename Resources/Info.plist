@@ -45,5 +45,7 @@
 	<true/>
 	<key>NSPrincipalClass</key>
 	<string>NSApplication</string>
+	<key>NSAppleEventsUsageDescription</key>
+	<string>Zest 使用系统自动化切换外观、菜单栏显示以及按确认清空废纸篓。</string>
 </dict>
 </plist>
