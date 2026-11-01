@@ -17,6 +17,7 @@ final class StatusItemController: NSObject, NSPopoverDelegate {
     private let processes: ProcessMonitor
     private let onOpenSettings: () -> Void
     private let onOpenNetworkWindow: () -> Void
+    private var tools: QuickToolsController?
     private var lastSegments: [MenuBarSegment]?
     private var lastImageHeight: CGFloat?
     private var lastImageScale: CGFloat?
@@ -26,13 +27,14 @@ final class StatusItemController: NSObject, NSPopoverDelegate {
     var onPanelTabChange: ((PanelView.PanelTab) -> Void)?
 
     init(store: MonitorStore, settings: AppSettings, network: NetworkMonitor, processes: ProcessMonitor,
-         openSettings: @escaping () -> Void, openNetworkWindow: @escaping () -> Void) {
+         openSettings: @escaping () -> Void, openNetworkWindow: @escaping () -> Void, tools: QuickToolsController? = nil) {
         self.store = store
         self.settings = settings
         self.network = network
         self.processes = processes
         self.onOpenSettings = openSettings
         self.onOpenNetworkWindow = openNetworkWindow
+        self.tools = tools
         super.init()
 
         popover.behavior = .transient
@@ -99,7 +101,8 @@ final class StatusItemController: NSObject, NSPopoverDelegate {
         popover.contentViewController = hosting
         popover.contentSize = size
         store.isPanelVisible = true
-        processes.start()
+        let tab = UserDefaults.standard.string(forKey: "panelTab") ?? "overview"
+        if tab == "overview" || tab == "processes" { processes.start() }
         onPanelVisibilityChange?(true)
         popover.show(relativeTo: button.bounds, of: button, preferredEdge: .minY)
         popover.contentViewController?.view.window?.makeKey()
@@ -139,11 +142,13 @@ final class StatusItemController: NSObject, NSPopoverDelegate {
                   quit: { NSApp.terminate(nil) },
                   onTabChange: { [weak self] tab in
                       guard let self else { return }
-                      if tab == .network { processes.stop() } else { processes.start() }
+                      if tab == .network || tab == .tools { processes.stop() } else { processes.start() }
                       PerformanceLog.shared.event("panel_tab", ["tab": tab.rawValue])
                       onPanelTabChange?(tab)
-                  })
+                  }, tools: tools)
     }
+
+    func closePanel() { popover.performClose(nil) }
 
     /// 内容区高度：取概览页的自然高度，若整个面板放不进菜单栏下方的可用空间则相应缩小（内容区可滚动）。
     private func panelContentHeight(below button: NSStatusBarButton) -> CGFloat {

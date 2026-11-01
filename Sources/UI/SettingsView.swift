@@ -10,19 +10,30 @@ struct SettingsView: View {
     @ObservedObject var settings: AppSettings
     var network: NetworkMonitor?
     var updater: SPUUpdater?
+    var tools: QuickToolsController? = nil
+    @AppStorage("settingsSection") private var section = "general"
 
     var body: some View {
-        TabView {
+        TabView(selection: $section) {
             GeneralSettings(settings: settings)
                 .tabItem { Label(L10n.text("通用"), systemImage: "gearshape") }
+                .tag("general")
             MenuBarSettings(settings: settings)
                 .tabItem { Label(L10n.text("菜单栏"), systemImage: "menubar.rectangle") }
+                .tag("menubar")
             NetworkSettings(settings: settings, network: network)
                 .tabItem { Label(L10n.text("网络"), systemImage: "network") }
+                .tag("network")
+            if let tools {
+                QuickToolsSettings(settings: settings, tools: tools)
+                    .tabItem { Label(L10n.text("快捷工具"), systemImage: "square.grid.2x2") }
+                    .tag("tools")
+            }
             AboutView(settings: settings, updater: updater)
                 .tabItem { Label(L10n.text("关于"), systemImage: "info.circle") }
+                .tag("about")
         }
-        .frame(width: 460, height: 460)
+        .frame(width: 520, height: 560)
         .id(settings.appLanguage)
     }
 }
@@ -190,6 +201,9 @@ private struct AboutView: View {
                     Button(L10n.text("检查更新…")) { updater.checkForUpdates() }
                 }
                 .frame(maxWidth: 360, alignment: .leading)
+            } else if Bundle.main.object(forInfoDictionaryKey: "ZestCustomBuild") as? Bool == true {
+                Text(L10n.text("快捷工具定制版：已停用官方自动更新，以保留定制功能。"))
+                    .font(.caption).foregroundStyle(.secondary)
             }
             Divider().padding(.horizontal, 40)
             Link("@字节笔记本", destination: URL(string: "https://www.bytenote.net")!)

@@ -66,6 +66,12 @@
 		F87FF0DE22273270753C99C4 /* L10n.swift in Sources */ = {isa = PBXBuildFile; fileRef = F98BFD322AD8F87D8E2468B2 /* L10n.swift */; };
 		FC5EA2DC2B50F43EAEDAE87A /* Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C98293E27122F2FFDCEB83 /* Components.swift */; };
 		FD6A617D899EEAAC7DDBCF97 /* CPUSampler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CC6F5E389714CE4BAF1AF07 /* CPUSampler.swift */; };
+		25F5D188A23109CB1D356698 /* QuickTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFE52A45133449075A26FF5 /* QuickTool.swift */; };
+		D2E7B7BD5D7831DD22CED0A5 /* QuickToolsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F397A5E39AC6EEA0D75F540 /* QuickToolsController.swift */; };
+		9A424719F1DB60C2C3D54497 /* ToolHotkeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3187E93872948A21EC9697D6 /* ToolHotkeys.swift */; };
+		204FB040EFFBBE9ED50BFE8D /* ToolCleaner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB9EE063BF2B02C266BA865F /* ToolCleaner.swift */; };
+		AAA8D79EEB71B40D9300FE1C /* QuickToolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85895CAFF61A7216312B09E /* QuickToolsView.swift */; };
+		B91BDD389FA2BF3F201924AF /* PowerSession.sh in Resources */ = {isa = PBXBuildFile; fileRef = BAEC996C5BA6D521CCCC5DE4 /* PowerSession.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,6 +149,12 @@
 		F831F2578FB3F07D53D3CACE /* NetworkOverviewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkOverviewPage.swift; sourceTree = "<group>"; };
 		F98BFD322AD8F87D8E2468B2 /* L10n.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = L10n.swift; sourceTree = "<group>"; };
 		FA446F269B32FED98C996135 /* LocalizationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizationTests.swift; sourceTree = "<group>"; };
+		CBFE52A45133449075A26FF5 /* QuickTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickTool.swift; sourceTree = "<group>"; };
+		4F397A5E39AC6EEA0D75F540 /* QuickToolsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickToolsController.swift; sourceTree = "<group>"; };
+		3187E93872948A21EC9697D6 /* ToolHotkeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolHotkeys.swift; sourceTree = "<group>"; };
+		BB9EE063BF2B02C266BA865F /* ToolCleaner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolCleaner.swift; sourceTree = "<group>"; };
+		F85895CAFF61A7216312B09E /* QuickToolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickToolsView.swift; sourceTree = "<group>"; };
+		BAEC996C5BA6D521CCCC5DE4 /* PowerSession.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = PowerSession.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +263,9 @@
 		C6E8EA75AB95C0BB957522C2 /* App */ = {
 			isa = PBXGroup;
 			children = (
+				BB9EE063BF2B02C266BA865F /* ToolCleaner.swift */,
+				3187E93872948A21EC9697D6 /* ToolHotkeys.swift */,
+				4F397A5E39AC6EEA0D75F540 /* QuickToolsController.swift */,
 				54967A124672017F4832516B /* AppDelegate.swift */,
 				2278E313D06547D940CDA719 /* AppSettings.swift */,
 				F98BFD322AD8F87D8E2468B2 /* L10n.swift */,
@@ -269,6 +284,7 @@
 		C92D0FED6E07FC3E1355022D /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				F85895CAFF61A7216312B09E /* QuickToolsView.swift */,
 				54C98293E27122F2FFDCEB83 /* Components.swift */,
 				1346B653D82B0C4B350FC09B /* MenuBarRenderer.swift */,
 				6D1FC65B2ACDB36F38AAB9AE /* NativeProcessTable.swift */,
@@ -285,6 +301,7 @@
 		D15B45B9BCCCD2ECB91462E4 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				CBFE52A45133449075A26FF5 /* QuickTool.swift */,
 				5CC6F5E389714CE4BAF1AF07 /* CPUSampler.swift */,
 				F3DB65FDEB877349FB1DD1EE /* DiskSampler.swift */,
 				85BD5800EDD1870B405D7491 /* Formatters.swift */,
@@ -305,6 +322,7 @@
 		F3FB63E168CD9523A15CDE14 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BAEC996C5BA6D521CCCC5DE4 /* PowerSession.sh */,
 				7EEB49D91DFCC83F7DA4503D /* Assets.xcassets */,
 				2A9B06F05763C57E9C1CB62E /* Info.plist */,
 				3BF4215BFF9449AB5B635E83 /* InfoPlist.xcstrings */,
@@ -406,6 +424,7 @@
 			files = (
 				0C40D083C4181D8135F5EF28 /* Assets.xcassets in Resources */,
 				21756354FE0DD78AD1A90D09 /* InfoPlist.xcstrings in Resources */,
+				B91BDD389FA2BF3F201924AF /* PowerSession.sh in Resources */,
 				76BCA07DD31A362E2EC45A51 /* Localizable.xcstrings in Resources */,
 				47709F276D507D7F9082C879 /* geoip.deflate in Resources */,
 				D76F110D5D6077B77A434913 /* oui.deflate in Resources */,
@@ -436,6 +455,11 @@
 			files = (
 				1CB6007E5AFE1A49BD1C0715 /* AnomalyDetector.swift in Sources */,
 				06389363E0F1CC09E4BEC504 /* AppDelegate.swift in Sources */,
+				AAA8D79EEB71B40D9300FE1C /* QuickToolsView.swift in Sources */,
+				204FB040EFFBBE9ED50BFE8D /* ToolCleaner.swift in Sources */,
+				9A424719F1DB60C2C3D54497 /* ToolHotkeys.swift in Sources */,
+				D2E7B7BD5D7831DD22CED0A5 /* QuickToolsController.swift in Sources */,
+				25F5D188A23109CB1D356698 /* QuickTool.swift in Sources */,
 				88045543E40A772D0433DD23 /* AppSettings.swift in Sources */,
 				FD6A617D899EEAAC7DDBCF97 /* CPUSampler.swift in Sources */,
 				FC5EA2DC2B50F43EAEDAE87A /* Components.swift in Sources */,

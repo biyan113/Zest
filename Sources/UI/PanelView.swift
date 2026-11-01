@@ -17,10 +17,11 @@ struct PanelView: View {
     var openNetworkWindow: () -> Void = {}
     var quit: () -> Void
     var onTabChange: (PanelTab) -> Void = { _ in }
+    var tools: QuickToolsController? = nil
 
     @AppStorage("panelTab") private var tab = PanelTab.overview
 
-    enum PanelTab: String, CaseIterable { case overview, processes, network }
+    enum PanelTab: String, CaseIterable { case overview, processes, network, tools }
 
     static let width: CGFloat = 372
     static let padding: CGFloat = 12
@@ -58,6 +59,8 @@ struct PanelView: View {
                     case .processes: ProcessesView(monitor: processes, availableHeight: contentHeight)
                     case .network: NetworkSummaryView(monitor: network, settings: settings,
                                                      openWindow: openNetworkWindow, openSettings: openSettings)
+                    case .tools:
+                        if let tools { QuickToolsView(tools: tools, settings: settings, openSettings: openSettings) }
                     }
                 }
                 .frame(maxWidth: .infinity, alignment: .top)
@@ -463,6 +466,7 @@ private struct PanelTabBar: View {
         case .overview: return L10n.text("概览")
         case .processes: return L10n.text("进程")
         case .network: return L10n.text("网络")
+        case .tools: return L10n.text("工具")
         }
     }
 
@@ -471,6 +475,7 @@ private struct PanelTabBar: View {
         case .overview: return "gauge.with.dots.needle.50percent"
         case .processes: return "list.bullet"
         case .network: return "network"
+        case .tools: return "square.grid.2x2"
         }
     }
 }

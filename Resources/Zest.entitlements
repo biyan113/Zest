@@ -8,5 +8,7 @@
 	<!-- 本机临时签名时，Sparkle 与主程序的 Team ID 不一致，硬化运行时会拒绝加载。 -->
 	<key>com.apple.security.cs.disable-library-validation</key>
 	<true/>
+	<key>com.apple.security.automation.apple-events</key>
+	<true/>
 </dict>
 </plist>
